@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Global styles */
+.card {
+  margin: 20px 0;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #222;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.navbar h1 {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+}
+
+/* Form styles */
+.form-label {
+  margin-top: 10px;
+  color: #bbb;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  background-color: #555;
+  color: #fff;
+  border: 1px solid #777;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+/* Comment styles */
+.comment {
+  border: 1px solid #666;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #555;
+  border-radius: 8px;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .img-container {
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
